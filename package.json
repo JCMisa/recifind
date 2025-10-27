@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google/genai": "^1.27.0",
     "@neondatabase/serverless": "^1.0.2",
     "cors": "^2.8.5",
     "cron": "^4.3.3",
