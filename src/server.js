@@ -4,7 +4,7 @@ import { db } from "./config/db.js";
 import { favoritesTable } from "./db/schema.js";
 import { and, eq } from "drizzle-orm";
 import job from "./config/cron.js";
-import GoogleGenAI from "@google/genai";
+import { GoogleGenAI } from "@google/genai";
 
 const app = express();
 const PORT = ENV.PORT || 5001;
